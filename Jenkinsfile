@@ -7,7 +7,7 @@ pipelineJob('my-scm-pipeline') {
                     remote {
                         url('https://github.com/your-org/your-repo.git')
                     }
-                    branches('*/main')
+                    branches('main')
                 }
             }
         }
